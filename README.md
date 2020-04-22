@@ -13,6 +13,15 @@ Welcome to the Convolutional Neural Networks (CNN) project in the AI Nanodegree!
 
 Along with exploring state-of-the-art CNN models for classification and localization, you will make important design decisions about the user experience for your app.  Our goal is that by completing this lab, you understand the challenges involved in piecing together a series of models designed to perform various tasks in a data processing pipeline.  Each model has its strengths and weaknesses, and engineering a real-world application often involves solving many problems without a perfect answer.  Your imperfect solution will nonetheless create a fun user experience!
 
+## Problem Statement
+How many dog breeds could you recognize? 5? 10? Maybe you are a dog lover and can go up to 50! You may not realize it, but this is what I would call domain knowledge, or specialized knowledge. This type of knowledge is not common knowledge and most people can live a happy life without ever being able to identify 50+ breeds of dogs, or flowers, or <insert animal/electronic component/car model/…>. 
+You may one day be in need to identify a dog’s breed though. Maybe it’s down to a disagreement with a friend on identifying the breed of the dog you are looking at. Or maybe you are living in May 2020 and are struggling to find food due to Covid-19 and are wondering if the beautiful wild mushroom you are looking at is safe to eat? Yeah, maybe stay away from that mushroom anyway.
+Let’s think about how you might want to solve this problem if it’s a disagreement with a friend: you might have a few species in mind and therefore head for Wikipedia/Google image to get more information about that breed and check if it is or not the one you think it is. You see a bunch of images, some correlating your point, some others are not about the dog you are looking for (“Manchester terrier” was bound to give you some hits about the city in the UK). You decide that some description of the breed might help, exactly where Wikipedia comes into play. 15 minutes later and you are no closer to the answer, and most likely your friend has done the same thing and has counter arguments to the new ones you may have.
+What if, through an app, you could take a photo or two of the dog in question and were given the breed back within a few seconds? Great user interface, simple, easy. A great product.
+This kind of product is the type that can be developed using Convolutional Neural Network as they are very good at gathering specialized knowledge and could answer these specialized questions. 
+ This is what we are going to work on in this project: firstly, differentiating humans from dogs, and, if the picture is of a dog, try to identify the breed itself.
+
+
 
 ## Project Instructions
 
